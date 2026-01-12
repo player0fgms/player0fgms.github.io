@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Game Platform</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f0f0; margin: 0; padding: 0; }
+    header { background: #4CAF50; color: white; padding: 1em; text-align: center; }
+    .game-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+    .game-card { background: white; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2); width: 200px; text-align: center; }
+    .game-card img { width: 100%; border-radius: 8px 8px 0 0; }
+    .game-card h3 { margin: 10px 0; }
+    .game-card a { display: inline-block; margin-bottom: 10px; padding: 10px 15px; background: #4CAF50; color: white; text-decoration: none; border-radius: 5px; }
+    .game-card a:hover { background: #45a049; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>My Game Platform</h1>
+</header>
+
+<div class="game-grid">
+  <div class="game-card">
+    <img src="games/game1/assets/thumb.png" alt="Game 1 Thumbnail">
+    <h3>Game 1</h3>
+    <a href="games/game1/index.html" target="_blank">Play</a>
+  </div>
+  <div class="game-card">
+    <img src="games/game2/assets/thumb.png" alt="Game 2 Thumbnail">
+    <h3>Game 2</h3>
+    <a href="games/game2/index.html" target="_blank">Play</a>
+  </div>
+  <!-- Add more games here -->
+</div>
+
+</body>
+</html>
